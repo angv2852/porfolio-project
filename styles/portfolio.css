@@ -8,6 +8,17 @@ h1 {
   line-height: 128px;
 }
 
+img {
+  display: block;
+  margin: 0 auto;
+  border: rgb(245, 241, 241) 35px solid;
+}
+col-sm-6 {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 10px;
+}
+
 .btn {
   padding: 15px 30px;
   font-size: 18px;
@@ -32,4 +43,52 @@ h1 {
   font-size: 24px;
   line-height: 27px;
   color: #272142;
+}
+.title {
+  padding: 120px 60px;
+}
+.title h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 64px;
+}
+.title h3 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  line-height: 27px;
+}
+.title p {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  color: rgba(39, 33, 66, 0.7);
+  line-height: 30px;
+}
+.title a {
+  color: var(--btn-contact-me);
+  background-color: white;
+  border: var(--btn-contact-me) 1px solid;
+  font-family: "Poppins", sans-serif;
+  padding: 18px 25px;
+}
+.title a:hover {
+  color: var(--btn-contact-me);
+  text-decoration: underline;
+  text-decoration-color: #1fa3fb;
+  text-decoration-thickness: 2px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 44px;
+    line-height: 60px;
+  }
+  .title h2 {
+    font-size: 32px;
+  }
+
+  .title {
+    padding: 0;
+  }
 }
