@@ -15,7 +15,7 @@ img {
 }
 col-sm-6 {
   display: block;
-  margin: 0 auto;
+  margin: 10px 0;
   padding: 10px 10px;
 }
 
@@ -78,7 +78,9 @@ col-sm-6 {
   text-decoration-color: #1fa3fb;
   text-decoration-thickness: 2px;
 }
-
+.project-description {
+  padding: 120px 60px;
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 44px;
