@@ -78,9 +78,7 @@ col-sm-6 {
   text-decoration-color: #1fa3fb;
   text-decoration-thickness: 2px;
 }
-.project-description {
-  padding: 120px 60px;
-}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 44px;
@@ -88,9 +86,14 @@ col-sm-6 {
   }
   .title h2 {
     font-size: 32px;
+    padding: 0;
   }
 
   .title {
     padding: 0;
+  }
+  .title a {
+    display: block;
+    margin: 0px 80px;
   }
 }
