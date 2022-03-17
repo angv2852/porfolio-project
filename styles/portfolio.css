@@ -78,6 +78,20 @@ col-sm-6 {
   text-decoration-color: #1fa3fb;
   text-decoration-thickness: 2px;
 }
+.about-hero {
+  padding: 160px 20px;
+}
+.about-hero h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-hero h2 {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+.about-content {
+  margin: 30px;
+}
 
 @media (max-width: 576px) {
   h1 {
@@ -95,5 +109,9 @@ col-sm-6 {
   .title a {
     display: block;
     margin: 0px 80px;
+  }
+  .about-hero {
+    text-align: center;
+    padding: 0;
   }
 }
