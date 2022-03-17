@@ -78,18 +78,18 @@ col-sm-6 {
   text-decoration-color: #1fa3fb;
   text-decoration-thickness: 2px;
 }
-.about-hero {
+.content-container {
   padding: 160px 20px;
 }
-.about-hero h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.about-hero h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
 }
-.about-content {
+.content {
   margin: 30px;
 }
 
@@ -110,7 +110,7 @@ col-sm-6 {
     display: block;
     margin: 0px 80px;
   }
-  .about-hero {
+  .content-container {
     text-align: center;
     padding: 0;
   }
