@@ -7,7 +7,10 @@ h1 {
   font-size: 96px;
   line-height: 128px;
 }
-
+h4 {
+  font-size: 48px;
+  font-family: "Playfair Display", serif;
+}
 img {
   display: block;
   margin: 0 auto;
@@ -18,7 +21,19 @@ col-sm-6 {
   margin: 10px 0;
   padding: 10px 10px;
 }
+footer .contact-box {
+  background-color: rgb(245, 241, 241);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+}
 .btn {
+  font-family: "Poppins", sans-serif;
   padding: 15px 30px;
   font-size: 18px;
   line-height: 27px;
@@ -98,6 +113,9 @@ col-sm-6 {
 }
 .content p {
   font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  line-height: 30px;
 }
 .active {
   color: var(--btn-contact-me) !important;
@@ -105,6 +123,30 @@ col-sm-6 {
 .nav-item {
   padding: 0 10px;
 }
+.footer-email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  display: block;
+  text-align: center;
+}
+.footer-email-link:hover {
+  color: var(--btn-contact-me);
+  transition: all 100ms ease-in-out;
+}
+.icon {
+  color: var(--btn-contact-me);
+  font-size: 18px;
+  border: rgb(245, 241, 241) 15px solid;
+  border-radius: 50px;
+  margin: 0 20px;
+}
+.icon:hover {
+  color: #ffff;
+  background-color: var(--btn-contact-me);
+  border-color: var(--btn-contact-me);
+}
+
 nav a {
   color: #272142;
   font-family: "Poppins", sans-serif;
@@ -116,6 +158,9 @@ nav a:hover {
   h1 {
     font-size: 44px;
     line-height: 60px;
+  }
+  h4 {
+    font-size: 23px;
   }
   .title h2 {
     font-size: 32px;
@@ -132,5 +177,11 @@ nav a:hover {
   .content {
     text-align: center;
     padding: 0;
+  }
+  .btn {
+    padding: 8px 12px;
+  }
+  footer .contact-box {
+    padding: 30px;
   }
 }
