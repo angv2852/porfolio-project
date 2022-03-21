@@ -88,10 +88,8 @@ p {
   padding: 18px 25px;
 }
 .title a:hover {
-  color: var(--btn-contact-me);
-  text-decoration: underline;
-  text-decoration-color: #1fa3fb;
-  text-decoration-thickness: 2px;
+  background-color: var(--btn-contact-me);
+  color: white;
 }
 .content {
   margin: 30px;
