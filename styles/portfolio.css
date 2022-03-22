@@ -122,6 +122,9 @@ p {
 .nav-item {
   padding: 0 10px;
 }
+.logo {
+  background-color: #f5f1f1;
+}
 .footer-email-link {
   text-decoration: none;
   color: black;
