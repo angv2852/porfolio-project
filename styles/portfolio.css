@@ -190,6 +190,9 @@ nav a:hover {
   .skills-container img {
     border: none;
   }
+  .skills-container p {
+    margin-bottom: 30px;
+  }
   footer .contact-box {
     padding: 30px;
   }
