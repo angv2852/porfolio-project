@@ -148,7 +148,9 @@ p {
   background-color: var(--btn-contact-me);
   border-color: var(--btn-contact-me);
 }
-
+.skills-container {
+  font-weight: bold;
+}
 nav a {
   color: #272142;
   font-family: "Poppins", sans-serif;
