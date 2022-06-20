@@ -38,20 +38,29 @@ p {
   padding: 15px 30px;
   font-size: 18px;
   line-height: 27px;
-  border-radius: 4px;
   color: white;
   background-color: var(--btn-contact-me);
+  transition: all 0.5s;
+  border-radius: 4px;
+}
+.btn:hover {
+  transform: scale(1.1);
+  color: rgb(245, 241, 241);
 }
 .hero {
-  background-color: rgb(245, 241, 241);
+  background-image: url("../images/laptopsimple.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
   text-align: center;
   padding: 160px 20px;
+  color: #e7e6ee;
 }
 .hero p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #272142;
+  color: #6c63ff;
 }
 .hero h2 {
   font-family: "Poppins", sans-serif;
