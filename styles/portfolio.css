@@ -1,7 +1,12 @@
 :root {
   --btn-contact-me: #6c63ff;
 }
-
+.intro {
+  background: #f5f1f1;
+  padding: 15px 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
 h1 {
   font-family: "Playfair Display", serif;
   font-size: 96px;
@@ -45,28 +50,30 @@ p {
 }
 .btn:hover {
   transform: scale(1.1);
-  color: rgb(245, 241, 241);
+  color: white;
 }
 .hero {
-  background-image: url("../images/laptopsimple.jpg");
+  background-image: url("../images/laptopsimple.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
   text-align: center;
-  padding: 160px 20px;
-  color: #e7e6ee;
+  padding: 160px 160px;
+  color: #6c63ff;
 }
 .hero p {
   font-size: 36px;
   font-weight: bold;
+  padding-top: 20px;
   margin: 0;
-  color: #6c63ff;
+  color: #212529;
 }
 .hero h2 {
   font-family: "Poppins", sans-serif;
   font-size: 24px;
   line-height: 27px;
-  color: #272142;
+  padding-bottom: 20px;
+  color: #212529;
 }
 .title {
   padding: 120px 60px;
@@ -178,8 +185,18 @@ nav a:hover {
     font-size: 44px;
     line-height: 60px;
   }
+  .hero h2 {
+    font-size: 23px;
+  }
   h4 {
     font-size: 23px;
+  }
+  .hero p {
+    font-size: 23px;
+  }
+  .intro {
+    padding: 15px;
+    margin-bottom: 15px;
   }
   .title h2 {
     font-size: 32px;
