@@ -160,6 +160,12 @@ p {
 .skills-container {
   font-weight: bold;
 }
+.skill-icon {
+  transition: all 1s;
+}
+.skill-icon:hover {
+  transform: scale(1.1);
+}
 nav a {
   color: #272142;
   font-family: "Poppins", sans-serif;
