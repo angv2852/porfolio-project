@@ -212,9 +212,14 @@ p {
 }
 .skills-container {
   font-weight: bold;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+  margin-bottom: 80px;
 }
 .skill-icon {
   transition: all 1s;
+  display: inline-block;
 }
 .skill-icon:hover {
   transform: scale(1.1);
@@ -268,7 +273,10 @@ nav a:hover {
   .btn {
     padding: 8px 12px;
   }
-
+  .skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
   .skills-container img {
     border: none;
   }
