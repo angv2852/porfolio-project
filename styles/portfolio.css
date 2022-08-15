@@ -209,7 +209,7 @@ p {
   color: #ffff;
   background-color: var(--btn-contact-me);
   border-color: var(--btn-contact-me);
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 .skills-container {
   font-weight: bold;
