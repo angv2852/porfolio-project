@@ -1,4 +1,4 @@
-# porfolio-project
+# portfolio-project
 
 I created my portfolio as my final course in SheCodes came to a close. 
 
