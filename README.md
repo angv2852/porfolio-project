@@ -6,4 +6,7 @@ This started off using a template, created by a designer, on Figma. I had to cre
 
 Feel free to check it out, see my featured projects, and learn more about me and my career change into Frontend Development. 
 
-Let's connect!![PortfolioScreenshot](https://user-images.githubusercontent.com/93938033/194168384-bc41fca6-772d-4ea7-af66-9c5a05088d01.png)
+Let's connect!!
+
+![PortfolioScreenshot](https://user-images.githubusercontent.com/93938033/204605927-f8cd4ab7-c865-4a03-9248-1fa42af8d15f.png)
+
